@@ -1,0 +1,9 @@
+---
+title: "Test post"
+date: 2026-06-21
+description: "Confirming the blog renders before anything gets styled."
+---
+
+This is a test post. If you're reading it on a rendered page, Quarto is working — the next step is making this look like it belongs on the same site as everything else.
+
+Once the real first post is ready, this one comes out.

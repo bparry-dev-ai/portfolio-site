@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Your Name — Blog"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Posts
+    right:
+      - href: ../index.html
+        text: "← Main site"
+
+format:
+  html:
+    css: styles.css
+    toc: true
+

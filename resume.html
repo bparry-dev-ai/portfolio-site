@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resume — Your Name</title>
+<meta name="description" content="Experience, education, and skills.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="wrap">
+    <a href="index.html" class="nav-mark">YN</a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" onclick="document.querySelector('.nav-links').classList.toggle('open'); this.setAttribute('aria-expanded', this.getAttribute('aria-expanded')==='false')">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="resume.html" aria-current="page">Resume</a>
+      <a href="projects.html">Projects</a>
+      <a href="blog/">Blog</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Resume</p>
+    <h1>Your Name</h1>
+
+    <div class="data-plate compact">
+      <div class="plate-item">
+        <span class="label">Clearance</span>
+        <span class="value">Secret (Active)</span>
+      </div>
+      <div class="plate-item">
+        <span class="label">Location</span>
+        <span class="value">[City, State]</span>
+      </div>
+      <div class="plate-item">
+        <span class="label">Contact</span>
+        <span class="value">[email@example.com]</span>
+      </div>
+    </div>
+
+    <div class="btn-row">
+      <a href="#" class="btn btn-primary">Download PDF</a>
+    </div>
+  </div>
+</header>
+
+<section class="resume-section">
+  <div class="wrap">
+    <h2>Experience</h2>
+
+    <div class="resume-entry">
+      <div class="resume-entry-head">
+        <h3>Aerospace Propulsion Craftsman</h3>
+        <span class="when">[Start year] — Present</span>
+      </div>
+      <p style="color: var(--ink-soft); margin: 0;">U.S. Air Force · [Base / Location]</p>
+      <ul>
+        <li>[Add a specific achievement — e.g. scope of systems maintained, inspection volume, or readiness metric]</li>
+        <li>[Add a specific achievement — e.g. troubleshooting complexity, certifications held, or training given to others]</li>
+        <li>[Add a specific achievement — e.g. process improvement, safety record, or cross-team coordination]</li>
+      </ul>
+      <span class="placeholder-note">Replace with your specifics</span>
+    </div>
+  </div>
+</section>
+
+<section class="resume-section">
+  <div class="wrap">
+    <h2>Education</h2>
+    <div class="resume-entry">
+      <div class="resume-entry-head">
+        <h3>BS, Applied Computing (AI Focus)</h3>
+        <span class="when">Expected 2029</span>
+      </div>
+      <p style="color: var(--ink-soft); margin: 0;">University of Arizona</p>
+    </div>
+  </div>
+</section>
+
+<section class="resume-section">
+  <div class="wrap">
+    <h2>Skills</h2>
+    <div class="resume-entry">
+      <h3 style="font-size: 1rem; color: var(--ink-soft); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 400;">Foundational</h3>
+      <div class="tag-row">
+        <span class="tag">Python</span>
+        <span class="tag">SQL</span>
+        <span class="tag">HTML / CSS</span>
+      </div>
+    </div>
+    <div class="resume-entry">
+      <h3 style="font-size: 1rem; color: var(--ink-soft); font-family: var(--font-mono); text-transform: uppercase; letter-spacing: 0.04em; font-weight: 400;">Currently learning</h3>
+      <div class="tag-row">
+        <span class="tag learning">Flask</span>
+        <span class="tag learning">Quarto</span>
+        <span class="tag learning">Linux server administration</span>
+        <span class="tag learning">Cloudflare Tunnel / networking</span>
+        <span class="tag learning">Git &amp; deployment</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Hand-built. Self-hosted. Deployed from a home server.</p>
+    <div class="footer-links">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Email</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

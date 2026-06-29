@@ -1,0 +1,10 @@
+---
+title: "Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  date-format: "MMMM D, YYYY"
+page-layout: full
+title-block-banner: false
+---
