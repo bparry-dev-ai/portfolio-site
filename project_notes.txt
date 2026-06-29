@@ -1,0 +1,57 @@
+# Portfolio Project
+
+## Decisions
+-Using static pages, HTML/CSS and quarto for the blog
+-Utilizing Claude for code help and VSCODE
+-Github repo
+
+## Blog Post workflow
+-Write post as qmd file (quarto or vscode) should save to the projects/web portfolio/blog/posts folder
+-every post needs its own folder inside blog/posts
+---
+title: "title"
+date: date
+description: "description"
+---
+-render in vscode terminal (cd blog, quarto render)
+-git add, git commit, git push
+-ssh into proxy vm and cd to /var/www/portfolio and run git pull
+
+## Commands that worked
+-git status (current status)
+-git init (initializes new git repo in current folder)
+-git add . (stages all files in current folder for commit)
+-git commit -m "<comment>" (saves snapshot of staged files with description)
+-git branch -M main (renames current branch to main) 
+-git remote add origin <url> (connects local repo to github)
+-git push -u origin main (pushes commits and sets original as default)
+-git log --oneline (shows commit history, one line per commit)
+-git clone <url> <file path>
+
+-sudo ss -tlnp (shows all ports currently in use and what process owns them)
+-ip addr show (shows ip addresses on VM)
+-quarto preview (local dev server and renders)
+-quarto render (builds blog to static html)
+
+-ssh <username>@<ip address>
+-sudo apt update && sudo apt upgrade -y
+
+-sudo apt install nginx -y
+-sudo systemctl status nginx
+-sudo systemctl reload nginx
+-sudo mkdir -p /var/www/portfolio
+-sudo chown -R $USER:$USER /var/www/portfolio
+-ls -la /var/www/
+-sudo nginx -t
+
+## Stuck / Solved
+-started git repo in wrong folder, pulled in unrelated files to github repo. Removed github repo and started fresh. Removed .git file from folder.
+-links wouldnt load from the home page, gave all file permission to nginx. Now all are loading.
+-blog wouldnt load from link on web page, removed blog/site from .gitignore and commited changes.
+
+## Daily Note
+-Installed new VM for nginx proxy, set up github repo for portfolio site and pulled files from VSCODE to repo, cloned repo into nginx proxy server /var/www/portfolio
+-created file config for nginx
+-got blog post working
+
+## Daily Note
