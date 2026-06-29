@@ -13,7 +13,6 @@ venv/
 
 # Quarto / blog build output (coming in a later phase)
 /blog/.quarto/
-/blog/_site/
 /blog/_freeze/
 
 # Secrets

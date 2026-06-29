@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "posts/test-post/index.html",
+    "href": "posts/test-post/index.html",
+    "title": "Test post",
+    "section": "",
+    "text": "This is a test post. If you’re reading it on a rendered page, Quarto is working — the next step is making this look like it belongs on the same site as everything else.\nOnce the real first post is ready, this one comes out."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Test post\n\n\nConfirming the blog renders before anything gets styled.\n\n\n\n\n\nJune 21, 2026\n\n\n\n\n\nNo matching items"
+  }
+]
