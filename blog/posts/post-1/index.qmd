@@ -1,0 +1,7 @@
+---
+title: "index"
+date: 2026-06-30
+description: "This post will describe the psychology of humans interacting with AI, developing new techniques, instincts, etc."
+---
+
+This post is in work.

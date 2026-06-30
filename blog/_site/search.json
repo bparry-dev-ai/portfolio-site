@@ -7,10 +7,24 @@
     "text": "This is a test post. If you’re reading it on a rendered page, Quarto is working — the next step is making this look like it belongs on the same site as everything else.\nOnce the real first post is ready, this one comes out."
   },
   {
+    "objectID": "posts/post-1/index.html",
+    "href": "posts/post-1/index.html",
+    "title": "index",
+    "section": "",
+    "text": "This post is in work."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Blog",
     "section": "",
-    "text": "Test post\n\n\nConfirming the blog renders before anything gets styled.\n\n\n\n\n\nJune 21, 2026\n\n\n\n\n\nNo matching items"
+    "text": "index\n\n\nThis post will describe the psychology of humans interacting with AI, developing new techniques, instincts, etc.\n\n\n\n\n\nJune 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nindex\n\n\nThis post will be about humans retaining their human nature in the face of an every increasing use and dependence upon technology. Reminding humans of their humanity.\n\n\n\n\n\nJune 30, 2026\n\n\n\n\n\n\n\n\n\n\n\n\nTest post\n\n\nConfirming the blog renders before anything gets styled.\n\n\n\n\n\nJune 21, 2026\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/post-2/index.html",
+    "href": "posts/post-2/index.html",
+    "title": "index",
+    "section": "",
+    "text": "This post is in work."
   }
 ]
