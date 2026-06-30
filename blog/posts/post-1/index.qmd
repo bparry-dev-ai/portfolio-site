@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: "Human-AI Psychology: The interactions between Humans and AI"
 date: 2026-06-30
 description: "This post will describe the psychology of humans interacting with AI, developing new techniques, instincts, etc."
 ---
